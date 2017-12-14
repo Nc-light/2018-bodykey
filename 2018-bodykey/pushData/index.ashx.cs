@@ -14,7 +14,7 @@ namespace bodykey.pushData
             ILog logs = LogManager.GetLogger("PushData");
             UTF8Encoding utf8e = new UTF8Encoding();
             string pushData = utf8e.GetString(context.Request.BinaryRead(context.Request.ContentLength));
-            logs.Info("run pushData("+DateTime.Now.ToLongTimeString()+")" + pushData);
+            logs.Info("run 》 pushData("+DateTime.Now.ToLongTimeString()+")" + pushData);
         }
 
         public bool IsReusable
