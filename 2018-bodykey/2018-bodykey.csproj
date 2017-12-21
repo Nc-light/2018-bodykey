@@ -67,6 +67,8 @@
     <Content Include="pushData\index.ashx" />
     <Content Include="pushData\client.ashx" />
     <Content Include="device\api\pushData\index.ashx" />
+    <Content Include="test.ashx" />
+    <Content Include="config\test.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\HttpService.cs" />
@@ -96,6 +98,9 @@
     </Compile>
     <Compile Include="device\api\pushData\index.ashx.cs">
       <DependentUpon>index.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="test.ashx.cs">
+      <DependentUpon>test.ashx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

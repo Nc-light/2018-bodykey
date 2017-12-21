@@ -28,6 +28,8 @@ tarballs/
 test-results/
 Thumbs.db
 
+*.config
+
 # Mac bundle stuff
 *.dmg
 *.app
